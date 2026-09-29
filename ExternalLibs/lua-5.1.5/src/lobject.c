@@ -24,7 +24,7 @@
 
 
 
-const TValue luaO_nilobject_ = {{NULL}, LUA_TNIL};
+const TValue luaO_nilobject_ = {LUA_TVALUE_NIL};
 
 
 /*
@@ -212,4 +212,3 @@ void luaO_chunkid (char *out, const char *source, size_t bufflen) {
     }
   }
 }
-
